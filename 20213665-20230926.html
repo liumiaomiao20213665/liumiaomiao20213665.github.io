@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaWebHomework4</title>
+    <style>
+        body{
+            font: 16px "simhei", Arial, Helvetica, sans-serif;
+            background-color: #f5f5f5;
+        }
+        body>div{
+            width: 1000px;
+            background-color: white;
+            margin: 0 auto;/*块级元素居中*/
+            overflow: hidden;/*解决上部元素粘连问题*/
+        }
+        #top{
+            background-color: white;
+            color: #606266;
+            font-size: 25px;
+            font-weight: 600;
+        }
+        body>div>div{
+            margin: 20px;
+        }
+        #main>div{
+            background-color: #E8E8E8;
+            padding: 16px;
+            font-family: -apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif, SimHei, SimSun;
+            margin:12px 40px;
+        }
+        .main_z_z{
+            background-color: #f5f5f5;
+        }
+        h3{
+            color: #4f4f4f;
+            margin: 8px 0 16px 0;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 26px;
+        }
+        h4{
+            padding: 5px;
+        }
+        li{
+            margin-bottom: 5px;
+        }
+        img{
+            width: 25px;
+            float: right;
+        }
+        #xuehao{
+            float:right;
+            margin-right: 10px;
+        }
+        .main_p{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div id="top">
+        <span>实验报告</span>
+        <span id="xuehao">20213665</span>
+        <hr>
+    </div>
+    <div id="main">
+        <h3>一、简介</h3>
+        <div class="main_z">
+            <ul>
+                <li>在GitBash中使用curl命令，使用ping命令，cut命令，grep命令和tracert命令</li>
+            </ul>
+        </div>
+        <h3>二、命令</h3>
+        <div class="main_z">
+            <ol>
+   <li>grep '^tor' cet6.txt
+   在cet6.txt中选出tor打头的所有单词</li>
+   <li>grep'tor$' cet6.txt
+   在cet6.txt中选出tor结尾的所有单词</li>
+   <li>cut --delimiter=/ -f1 cet6.txt
+   从cet6.txt文件中第一个/处进行切割并输出前半部分</li>
+   <li>tracert pku.edu.cn
+   用于确定访问pku.edu.cn网站所采用的路径</li>
+   <li>ping github.com
+   用来检测我所用的计算机网络与guhub.com网站的网络是否连通</li> 
+	<li>curl https://lijianhong19720904.github.io/WebAdv/kc00/cet6.txt >cet6.txt
+	向该网站发送访问请求并且编辑成文本文件保存在个人文件夹中</li>
+            </ol>
+        </div>
+        <h3>三、总结</h3>
+        <div class="main_z">
+            <p>许多命令之间都可以相互搭配使用产生不同的效果，要熟练掌握好每个命令如何使用如何搭配。gitbash是一个在windows系统上运行Git命令的工具，通过使用命令行实现对计算机的操作，更加接近于计算机的底层。</p>
+        </div>
+      </div>
+    </div>
+</div>

@@ -1,0 +1,112 @@
+简介：学会了如何用Git Bash写cd、ls、cp、rm、mkdir、history等指令
+
+操作步骤：先用cd指令定位到D盘，然后在D盘里创建文件夹lmm，定位到lmm文件夹中后在文件夹中用cp指令进行图片和书本的添加，用rm指令进行书本和图片的删除，然后重复几次以上步骤，在用history指令创建一个文本文件。
+
+历史记录：
+    1  cd /
+    2  ls
+    3  mkdir lmm
+    4  mkdir liumm
+    5  mkdir liu
+    6  cd /
+    7  ls
+    8  mkdir lmm
+    9  ls
+   10  cd lmm
+   11  cp /c/Users/86137/Desktop/Web开发/Eloquent_JavaScript.pdf .
+   12  cp /c/Users/86137/Desktop/Web开发/b321b869gy1hhhbz36bbbj23wo2ls1l0.jpg
+   13  cp "C:\Users\86137\Desktop\Web开发\b321b869gy1hhhbz36bbbj23wo2ls1l0.jpg" .
+   14  histort
+   15  history
+   16  history > l.txt
+   17  rm lmm
+   18  rm lmm -r
+   19  cd /d
+   20  rm lmm
+   21  ls
+   22  cd /c
+   23  cd d
+   24  rm lmm
+   25  cd /d
+   26  history
+   27  rm lmm
+   28  cd /~
+   29  cd /
+   30  rm lmm
+   31  cd /d
+   32  mkdir lmmm
+   33  cd /lmm
+   34  ls
+   35  cd /lmmm
+   36  cd /d
+   37  cd /lmmm
+   38  cd lmmm
+   39  cp /
+   40  cp /"D:\Web\Git\lmm\b321b869gy1hhhbz36bbbj23wo2ls1l0.jpg" .
+   41  cp "D:\Web\Git\lmm\b321b869gy1hhhbz36bbbj23wo2ls1l0.jpg" .
+   42  rm lmmm
+   43  cd /d
+   44  rm lmmm
+   45  cd /d
+   46  mkdir lmm
+   47  ls
+   48  cd lmm
+   49  ls
+   50  cp "C:\Users\86137\Desktop\Web开发\6fdc4a18aa9a97e5b02fa4bf0b1f989.jpg" .
+   51  ls
+   52  cp 
+   53  cp 
+   54  ls
+   55  cd /d
+   56  rm lmm
+   57  cd /
+   58  rm lmm
+   59  cd /d
+   60  rm lmm
+   61  rm -rf lmm
+   62  mkdir lmm
+   63  history
+   64  history > h.txt
+   65  cd lmm
+   66  history
+   67  history > h.txt
+   68  cd /d
+   69  cd lmm
+   70  cp "C:\Users\86137\Desktop\Web开发\6fdc4a18aa9a97e5b02fa4bf0b1f989.jpg" .
+   71  cp "C:\Users\86137\Desktop\Web开发\b321b869gy1hhhbz36bbbj23wo2ls1l0.jpg" .
+   72  ls
+   73  rm "C:\Users\86137\Desktop\Web开发\b321b869gy1hhhbz36bbbj23wo2ls1l0.jpg"
+   74  ls
+   75  ls
+   76  rm "D:\lmm\b321b869gy1hhhbz36bbbj23wo2ls1l0.jpg"
+   77  ls
+   78  history
+   79  cp "C:\Users\86137\Desktop\Web开发\Eloquent_JavaScript.pdf" .
+   80  cp "C:\Users\86137\Desktop\Web开发\Learn CSS in One Day and Learn It Well.pdf" .
+   81  cp "C:\Users\86137\Desktop\Web开发\The Linux Command Line A Complete Introduction.pdf" .
+   82  ls
+   83  history
+   84  rm "D:\lmm\Learn CSS in One Day and Learn It Well.pdf"
+   85  ls
+   86  history
+   87  rm "D:\lmm\Learn CSS in One Day and Learn It Well.pdf"
+   88  ls
+   89  rm -r 
+   90  rm -r /d/lmm/Learn CSS in One Day and Learn It Well.pdf
+   91  rm -f '/d/lmm/Learn CSS in One Day and Learn It Well.pdf'
+   92  ls
+   93  history
+   94  rm -f "D:\lmm\Eloquent_JavaScript.pdf"
+   95  rm -f "D:\lmm\The Linux Command Line A Complete Introduction.pdf"
+   96  ls
+   97  cd /d
+   98  cd lmm
+   99  ls
+  100  cp "C:\Users\86137\Desktop\Web开发\Eloquent_JavaScript.pdf" .
+  101  ls
+  102  cp "C:\Users\86137\Desktop\Web开发\Learn CSS in One Day and Learn It Well.pdf" .
+  103  ls
+  104  cp "C:\Users\86137\Desktop\Web开发\The Linux Command Line A Complete Introduction.pdf" .
+  105  ls
+  106  history
+  107  history > h.txt
